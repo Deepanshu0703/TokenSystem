@@ -2,7 +2,7 @@
 
 # Frontend is made by using React
 
-### video link [https://drive.google.com/file/d/11WsKD-Z47MVWU6GIpC5_k8_3QC18JKF9/view?usp=sharing](here)
+### video link [here](https://drive.google.com/file/d/11WsKD-Z47MVWU6GIpC5_k8_3QC18JKF9/view?usp=sharing)
 
 ## How to start
 
