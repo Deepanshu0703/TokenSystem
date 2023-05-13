@@ -1,0 +1,127 @@
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+  }
+  
+  table td,
+  table th {
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr.active {
+    background-color: #8BC34A;
+  }
+  
+  table td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  table td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  h1,h2{
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  input[type="text"], 
+  input[type="email"], 
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  input[type="submit"], 
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover, 
+  button:hover {
+    background-color: #3e8e41;
+  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-size: 16px;
+}
+
+input[type="submit"], 
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover, 
+button:hover {
+  background-color: #3e8e41;
+}
+
+.btn{
+    color: black;
+    background-color: #a0bed8;
+    margin: 10px auto;
+    width: 200px;
+}
+.display{
+    background-color:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    color:black;
+    width:500px;
+    display:block;
+    margin:40px auto;
+}
